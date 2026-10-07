@@ -1,4 +1,4 @@
-# Electro-Mechanical Brake-by-Wire (BBW) ECU & Automated HIL Validation Suite
+# Brake-by-Wire Pedal ECU
 
 ![Platform](https://img.shields.io/badge/Platform-ESP32-blue.svg?logo=espressif)
 ![Framework](https://img.shields.io/badge/Framework-ESP--IDF%20%2F%20FreeRTOS-green.svg)
