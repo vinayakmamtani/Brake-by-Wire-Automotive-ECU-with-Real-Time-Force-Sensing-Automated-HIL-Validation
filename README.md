@@ -241,14 +241,6 @@ Follow on-screen instructions during **TC-02** to verify dynamic force transduce
 
 ---
 
-## Future Roadmap & Safety Enhancements
-
-- [ ] **CAN-FD / TWAI Integration (ISO 11898-1):** Transmit cyclic 10 ms brake demand frames (`0x110`) with rolling counter and CRC-8 checksum to wheel actuators.
-- [ ] **Dual-Sensor Redundancy (ASIL-D Concept):** Implement redundant Dual-Hall / Strain-gauge channel cross-checking with 10% discrepancy trip threshold.
-- [ ] **Dynamic Pedal Mapping:** Configurable pedal response curves (Linear Standard vs. Progressive Sport brake curve).
-
----
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
