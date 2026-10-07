@@ -1,0 +1,14 @@
+# Electro-Mechanical Brake-by-Wire (BBW) ECU & Automated HIL Validation Suite
+
+![ESP32](https://img.shields.io/badge/Platform-ESP32-blue.svg)
+![RTOS](https://img.shields.io/badge/OS-FreeRTOS-green.svg)
+![Language](https://img.shields.io/badge/Language-C%20%2F%20Python-orange.svg)
+![Validation](https://img.shields.io/badge/Testing-Automated%20HIL-red.svg)
+
+A proof-of-concept dry Brake-by-Wire (BBW) pedal-transducer ECU built on an ESP32 dual-core architecture running FreeRTOS. The system decouples driver pedal force from physical hydraulic lines, executing deterministic 50 Hz pedal acquisition, digital low-pass filtering, and ISO 26262-inspired fault containment, verified via an automated external Python Hardware-in-the-Loop (HIL) test harness.
+
+---
+
+## System Architecture
+
+The firmware utilizes **Asymmetric Multiprocessing (AMP)** on the ESP32 to eliminate UI jitter from the safety-critical brake calculation loop.
